@@ -14,6 +14,7 @@ body {
     height: 200px;
     background-color: #fff;
     overflow: hidden;
+    display: flex;/*container*/
 }
 
 #posicao:hover .pulse {
@@ -21,12 +22,9 @@ body {
 }
 
 .pulse {
-    position: absolute;
     background: none;
     color: #ff760c;
     border: 2px solid;
-    bottom: -100px;
-    left: 0px;
     padding: 15px 40px;
     transition: 0.25s;
 }
